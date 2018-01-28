@@ -1,0 +1,28 @@
+{
+  "name": "l-print",
+  "version": "0.0.1",
+  "description": "Color and format for nodejs console.log",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishaszu/l-print.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "node",
+    "js",
+    "console",
+    "log",
+    "color"
+  ],
+  "author": "mishaszu <mishaszu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishaszu/l-print/issues"
+  },
+  "homepage": "https://github.com/mishaszu/l-print#readme"
+}
