@@ -1,31 +1,28 @@
-const lPrint = {
+const {colors, pallete} = require('./src/colors')
+const {pad, lvl} = require('./src/pad')
+const {date} = require('./src/date')
+const {log} = require('./src/logger')
+const {pipe} = require('./src/pipe')
+
+
+//***application core***//
+const core = {
   value: '',
-  color: '',
   init: function(string) {
     this.value = string
     return this
-  },
-  pad: function(pad) {
-    if (pad) {
-      this.value = this.value.padStart(pad)
-    } else {
-      this.value = this.value.padStart(10)
-    }
-    return this
-  },
-  log: function() {
-    console.log(this.value)
   }
 }
 
+//***l-print object***//
+const print = Object.assign({}, core, colors, pallete, pad, lvl, date, log, pipe)
 
-function printer(string) {
-  const loger = Object.create(lPrint)
-  return loger.init(string)
+
+//***l-print function***//
+function _l(string) {
+  const logger = Object.create(print)
+  return logger.init(string)
 }
 
-const l = printer
 
-l('test').pad(5).log()
-
-//module.exports = printer
+module.exports = _l
