@@ -1,0 +1,1 @@
+exports.pipe = require('./pipe')
