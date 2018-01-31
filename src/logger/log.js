@@ -3,9 +3,9 @@ module.exports = {
     if (!this.value) {
       this.value = ''
     }
-    if (this.color || this.bgColor) {
+    if (this.color || this.bgColor || this.effect) {
       console.log(
-        `${this.color}${this.bgColor}`,
+        `${this.color}${this.bgColor}${this.effect}`,
         this.dateString,
         this.value,
         this.pallete.reset

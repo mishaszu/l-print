@@ -33,6 +33,6 @@ module.exports = {
     return this
   },
   colorSet: function(string) {
-    this.color = this.pallete[string]
+    this.color = this.pallete.colors[string]
   },
 }
