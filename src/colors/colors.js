@@ -1,35 +1,38 @@
 module.exports = {
-  color: null,
+  color: '',
   black: function() {
-    this.color = this.pallete.black
+    this.colorSet('black')
     return this
   },
   blue: function() {
-    this.color = this.pallete.blue
+    this.colorSet('blue')
     return this
   },
   cyan: function() {
-    this.color = this.pallete.cyan
+    this.colorSet('cyan')
     return this
   },
   green: function() {
-    this.color = this.pallete.green
+    this.colorSet('green')
     return this
   },
   magneta: function() {
-    this.color = this.pallete.magneta
+    this.colorSet('magneta')
     return this
   },
   red: function() {
-    this.color = this.pallete.red
+    this.colorSet('red')
     return this
   },
   white: function() {
-    this.color = this.pallete.white
+    this.colorSet('white')
     return this
   },
   yellow: function() {
-    this.color = this.pallete.yellow
+    this.colorSet('yellow')
     return this
+  },
+  colorSet: function(string) {
+    this.color = this.pallete[string]
   },
 }
