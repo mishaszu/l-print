@@ -5,9 +5,9 @@ module.exports = {
     cyan: "\x1b[36m",
     green: "\x1b[32m",
     magneta: "\x1b[35m",
-    white: "\x1b[37m",
     red: "\x1b[31m",
     reset: '\x1b[0m',
+    white: "\x1b[37m",
     yellow: "\x1b[33m",
     bg: {
       black: "\x1b[40m",

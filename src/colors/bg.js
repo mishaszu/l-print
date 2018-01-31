@@ -1,5 +1,5 @@
 module.exports = {
-  bgColor: null,
+  bgColor: '',
   bgBlack: function() {
     this.bgSet('black')
     return this
@@ -33,6 +33,6 @@ module.exports = {
     return this
   },
   bgSet: function(string) {
-    this.bgColor = this.pallete[bg][string]
+    this.bgColor = this.pallete.bg[string]
   },
 }

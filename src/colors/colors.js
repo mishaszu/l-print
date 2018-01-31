@@ -1,5 +1,5 @@
 module.exports = {
-  color: null,
+  color: '',
   black: function() {
     this.colorSet('black')
     return this
