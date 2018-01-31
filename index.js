@@ -1,4 +1,4 @@
-const {colors, bg, pallete} = require('./src/colors')
+const {colors, bg, pallete, effects} = require('./src/colors')
 const {pad, lvl} = require('./src/pad')
 const {date} = require('./src/date')
 const {log} = require('./src/logger')
@@ -15,7 +15,15 @@ const core = {
 }
 
 //***l-print object***//
-const print = Object.assign({}, core, colors, bg, pallete, pad, lvl, date, log, pipe)
+const print = Object.assign(
+  {},
+  core,
+  colors, bg, pallete, effects,
+  pad, lvl,
+  date,
+  log,
+  pipe
+)
 
 
 //***l-print function***//
