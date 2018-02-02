@@ -1,3 +1,5 @@
+"strict mode"
+
 const {colors, bg, pallete, effects} = require('./src/colors')
 const {pad, lvl} = require('./src/pad')
 const {date} = require('./src/date')

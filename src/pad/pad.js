@@ -1,3 +1,5 @@
+"strict mode"
+
 module.exports = {
   pad: function(pad, string) {
     if (string) {

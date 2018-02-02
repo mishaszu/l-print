@@ -1,3 +1,5 @@
+"strict mode"
+
 module.exports = {
   pipe: function() {
     const args = arguments

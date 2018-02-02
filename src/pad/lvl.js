@@ -1,3 +1,5 @@
+"strict mode"
+
 module.exports = {
   lvl1: function(string){
     if (string) {

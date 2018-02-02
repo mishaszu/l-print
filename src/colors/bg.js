@@ -1,3 +1,5 @@
+"strict mode"
+
 module.exports = {
   bgColor: '',
   bgBlack: function() {

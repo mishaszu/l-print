@@ -1,3 +1,5 @@
+"strict mode"
+
 module.exports = {
   effect: '',
   blink: function() {
