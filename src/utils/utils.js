@@ -1,10 +1,12 @@
 "strict mode"
 
 const addZero = require('./addZero')
+const padStart = require('./padStart')
 
 const utils = Object.assign(
   {},
-  addZero
+  addZero,
+  padStart
 )
 
 module.exports = utils
