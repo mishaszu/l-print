@@ -3,6 +3,7 @@ const {pad, lvl} = require('./src/pad')
 const {date} = require('./src/date')
 const {log} = require('./src/logger')
 const {pipe} = require('./src/pipe')
+const {text} = require('./src/text')
 
 
 //***application core***//
@@ -22,7 +23,8 @@ const print = Object.assign(
   pad, lvl,
   date,
   log,
-  pipe
+  pipe,
+  text
 )
 
 
