@@ -56,6 +56,7 @@ Supported colors:
 - red
 - white
 - yellow
+
 **usage**
 ```
 l('text').red().log()
@@ -72,6 +73,7 @@ Supported colors:
 - red
 - white
 - yellow
+
 **usage**
 to use add 'bg' bedore color and uppercase first letter
 ```
@@ -84,6 +86,7 @@ Supported effects:
 - bright
 - dim
 - underscore
+
 **usage**
 ```
 l('text').underscore().log()
@@ -129,6 +132,7 @@ Console log will be preceded with date in format:
 ```
 date()
 ```
+
 **usage**
 ```
 l('text').date().log()
