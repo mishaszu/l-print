@@ -1,3 +1,5 @@
+"strict mode"
+
 const {utils} = require('../utils')
 
 module.exports = {
