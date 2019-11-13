@@ -1,6 +1,6 @@
 {
   "name": "l-print",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Color and format for nodejs console.log",
   "main": "index.js",
   "scripts": {
